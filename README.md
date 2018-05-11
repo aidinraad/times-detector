@@ -1,6 +1,6 @@
 # Times detector YOLOv2 Keras/Tensorflow
 
-This repo contains an application to [YOLOv2 Keras/Tensorflow](https://github.com/experiencor/keras-yolo2.git) for times magazine detection.
+This repo contains an application of [YOLOv2 Keras/Tensorflow](https://github.com/experiencor/keras-yolo2.git) to times magazine detection.
 
 ## Dependencies:
 - python            2.7.
