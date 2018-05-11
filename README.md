@@ -170,7 +170,7 @@ python predict_.py -c ./config.json -w ./full_yolo_times.h5 -i ./video/times-002
 
 ## 4. Evaluation:
 The training convergence was monitored by valid Yolo Loss, and the weights with lowest valid loss was saved .  In the current training, I do not see a big difference between train and validation loss, then no sign of over-fitting
-![alt text][https://github.com/aidinraad/times-detector/blob/master/images/loss_plot.png]
+![alt text](https://github.com/aidinraad/times-detector/blob/master/images/loss_plot.png)
 
 ## 5. To do:
 - [ ] Add shear and perspective transformation.
