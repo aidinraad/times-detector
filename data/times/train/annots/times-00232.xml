@@ -1,0 +1,26 @@
+<?xml version="1.0" ?><annotation>
+  <folder>out</folder>
+  <filename>times-00232.jpg</filename>
+  <path>/home/aidin/work/codes/python/projects/gtimg/data/out/times-room-00232.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>550</width>
+    <height>320</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>times</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>344</xmin>
+      <ymin>155</ymin>
+      <xmax>464</xmax>
+      <ymax>307</ymax>
+    </bndbox>
+  </object>
+</annotation>

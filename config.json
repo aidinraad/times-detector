@@ -1,0 +1,36 @@
+{
+    "model" : {
+        "backend":              "Full Yolo",
+        "input_size":           416,
+        "anchors":              [2.63, 5.17, 3.53, 4.98, 3.89, 6.42, 4.97, 5.84, 5.32, 7.04],
+        "max_box_per_image":    10,        
+        "labels":               ["times"]
+    },
+
+    "train": {
+        "train_image_folder":   "./data/times/train/images/",
+        "train_annot_folder":   "./data/times/train/annots/",     
+          
+        "train_times":          8,
+        "pretrained_weights":   "",
+        "batch_size":           16,
+        "learning_rate":        1e-4,
+        "nb_epochs":            10,
+        "warmup_epochs":        3,
+
+        "object_scale":         5.0 ,
+        "no_object_scale":      1.0,
+        "coord_scale":          1.0,
+        "class_scale":          1.0,
+
+        "saved_weights_name":   "full_yolo_times.h5",
+        "debug":                true
+    },
+
+    "valid": {
+        "valid_image_folder":   "./data/times/valid/images/",
+        "valid_annot_folder":   "./data/times/valid/annots/",
+
+        "valid_times":          1
+    }
+}
